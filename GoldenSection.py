@@ -41,10 +41,8 @@ def goldenSection(xl, xu, nIter):
             d = ((np.sqrt(5)-1)/2)*(xu-xl)
             x2 = xu - d
 
-def __init__():
+if __name__ == "__main__":
     xl = -2
     xu = 1
     nIter = 8
     goldenSection(xl, xu, nIter)
-
-__init__()
