@@ -5,9 +5,6 @@ def function(x, y):
     return f
 
 def HuntMethod(xi, xf, yi, h, n_iters):
-
-    results = []
-
     for x_i in range(int(np.abs(xi - xf))):
         #Aplicamos metodo de hunt
         print("\n\nHunt Method for x= " , x_i + 1)
